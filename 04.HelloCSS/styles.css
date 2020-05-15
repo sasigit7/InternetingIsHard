@@ -1,0 +1,44 @@
+body {
+    color: #414141;
+    /* Dark Gray  */
+    background-color: #EEEEEE;
+    /* LIGHT GRAY */
+    font-size: 18px;
+    /* Base Font Size */
+}
+
+h1 {
+    font-size: 2em;
+    /* 36px */
+}
+
+h2 {
+    font-size: 1.6em;
+    /* 28px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: left;
+}
