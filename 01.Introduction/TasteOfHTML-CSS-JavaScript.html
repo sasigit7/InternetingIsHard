@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Taste Of HTML, CSS & JavaScript</title>
+    <!-- CSS -->
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 70%;
+        }
+
+        .container,
+        button,
+        h1 {
+            text-align: center;
+        }
+
+        #buttonClick {
+            font-size: 22px;
+            color: rgb(212, 29, 29);
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Taste Of HTML, CSS & JavaScript</h1>
+        <hr>
+        <button type="button"
+                id="buttonClick">Click Me!</button>
+    </div>
+    <!-- JavaScript -->
+    <script>
+        var button = document.getElementById("buttonClick");
+        button.addEventListener("click", function (event) {
+            button.innerHTML = "You have Clicked!";
+        });
+    </script>
+</body>
+
+</html>
