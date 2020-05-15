@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Advanced Positioning</title>
+    <link rel="stylesheet"
+          href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="example relative">
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+            <div class="item item-relative"><img src="images/relative.svg"
+                     alt=""></div>
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="example absolute">
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+            <div class="item item-absolute"><img src="images/absolute.svg"
+                     alt=""></div>
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="example fixed">
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+            <div class="item item-fixed"><img src="images/fixed.svg"
+                     alt=""></div>
+            <div class="item"><img src="images/static.svg"
+                     alt=""></div>
+        </div>
+    </div>
+    <script>
+        var left = 0;
+
+        function frame() {
+            var element = document.querySelector(".item-relative");
+            left += 2;
+            element.style.left = left + "px";
+            if (left >= 300) {
+                clearInterval(Id);
+            }
+        }
+        var Id = setInterval(frame, 10);
+    </script>
+</body>
+
+</html>
