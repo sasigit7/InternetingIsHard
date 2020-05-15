@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet"
+          href="styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1>CSS Selectors</h1>
+        <p class="synopsis">CSS Selectors let you <em>select</em> individual HTML elements in an HTML document.
+            This is <strong>super</strong> useful.
+        </p>
+        <p>Classes are ridiculously important, since they allow you to select
+            arbitrary boxes in your web pages.
+        </p>
+        <p>We will also be talking about links in this example, so here's
+            <a href="https://internetingishard.com">Interneting Is Hard</a> for us to style.
+        </p>
+        <!-- <div class="button">Button One</div>
+    <div class="button call-to-action">Button Two</div> -->
+        <a class="button"
+           href="nowhere.html">Button One</a>
+        <a class="button call-to-action"
+           href="nowhere.html">Button Two</a>
+
+        <a id="button-2"
+           class="button"
+           href="nowhere.html">Button Three</a>
+
+        <!-- From the same page -->
+        <a href="#button-2">Go to Button Two</a>
+
+        <!-- From a different page -->
+        <a href="selectors.html#button-2">Go to Button Two</a>
+
+
+        <div class="sidebar">
+            <p>If this page had a sidebar.....</p>
+            <p>We'd have some problems with some pseudo-classes.</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

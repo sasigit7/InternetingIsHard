@@ -1,0 +1,132 @@
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* .synopsis {
+    color: #7e8184; /* Light Gray
+    font-style: italic;
+} */
+
+.page>p:first-of-type {
+    color: #7e8184;
+    /* Light Gray */
+    font-style: italic;
+}
+
+.synopsis em {
+    font-style: normal;
+}
+
+/* .button {
+    color: #fff;
+    background-color: #5995da; /* blue 
+font-weight: bold;
+padding: 20px;
+text-align: center;
+border: 2px solid #5d6063; /* Dark Gray 
+border-radius: 5px;
+width: 200px;
+margin: 20px auto;
+}
+*/
+
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5995da;
+    /* blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    /* Dark Gray */
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+    color: #fff;
+    background-color: #76aeed;
+    /* light Blue */
+}
+
+.button:active,
+.button:visited:active {
+    color: #fff;
+    background-color: #5995da;
+}
+
+#button-2 {
+    background-color: #D55C5F;
+    /* Red */
+}
+
+.call-to-action {
+    font-style: italic;
+    background-color: #eeb75a;
+    /* Yellow */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #EEB75A;
+    /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #F5CF8E;
+    /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: #EEB75A;
+    /* Yellow */
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+    background-color: #D55C5F;
+    /* Red */
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+/* #button-2 {
+    color: #5d6063;
+} */
